@@ -144,4 +144,4 @@ $RECYCLE.BIN/
 # End of https://www.toptal.com/developers/gitignore/api/windows,java,intellij+all
 
 # 어플리케이션 정보
-.yml
+*.yml
