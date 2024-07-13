@@ -8,7 +8,7 @@ jobs:
   deploy-ci:
     runs-on: ubuntu-22.04
     env:
-      working-directory: notify-pilot
+      working-directory: lotto-pilot
 
     steps: 
     - uses: actions/checkout@v3
