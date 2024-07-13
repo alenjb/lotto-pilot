@@ -1,4 +1,4 @@
-FROM amd64/amazoncorretto:21
+FROM eclipse-temurin:21
 
 WORKDIR /app
 
