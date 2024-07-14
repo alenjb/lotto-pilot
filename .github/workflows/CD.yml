@@ -39,8 +39,8 @@ jobs:
     - name: docker hub에로그인
       uses: docker/login-action@v2.2.0
       with:
-        username: ${{ secrets.DOCKERHUBLOGIN_USERNAME }}
-        password: ${{ secrets.DOCKERHUBLOGIN_ACCESSTOKEN }}
+        username: ${{ secrets.DOCKERHUB_LOGIN_USERNAME }}
+        password: ${{ secrets.DOCKERHUB_LOGIN_ACCESSTOKEN }}
 
     - name: docker image 빌드 및 푸시
       run: |
